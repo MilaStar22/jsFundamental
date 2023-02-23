@@ -72,6 +72,8 @@
 // let arr3 = arr2.concat(arr);
 // console.log(arr3);
 
+
+
 //3 variant
 // let arr = [3, 7, 9];
 // let arr2 = [4, 3, 9];
