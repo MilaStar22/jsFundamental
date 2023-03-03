@@ -84,3 +84,16 @@ class Student extends Person {
 const stud1 = new Student("Petro", "Petrenko", 2019);
 console.log(stud1.showFullName("Petrovych")); 
 console.log(stud1.showCurse(2019));
+
+//Task after lection => circles animation
+let allCircles = document.querySelectorAll(".circle");
+allCircles.forEach(circle => {
+    const animationClass = circle.dataset.anim;
+    circle.classList.add(animationClass);
+    console.log(circle.classList.contains(animationClass));
+});
+
+// check if animation was acted
+allCircles.forEach(circle => {
+    console.log(circle.classList.contains(circle.getAttribute(`data-anim`)));
+})
