@@ -1,8 +1,8 @@
 # jsFundamental
 
-where: Softserve academy
-when: 10 Feb - 31 Mar 2023
-lector: Mihailo Klymenko
+where: Softserve academy <br>
+when: 10 Feb - 31 Mar 2023 <br>
+lector: Mihailo Klymenko <br>
 
 Topics: 
 - 1_Intro
