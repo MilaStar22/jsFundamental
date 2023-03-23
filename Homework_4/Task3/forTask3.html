@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" class="checkform">
+        <label for="fullname">Full Name</label><br>
+        <input type="text" id="fname" name="fullname" placeholder="Full Name" required class="error"><br>
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" placeholder="...@gmail.com" required class="error"><br><br>
+        <label for="phonenumber">Phone Number</label><br>
+        <input type="number" id="phonenumber" name="phonenumber" placeholder="+00-000-000-00-00" required class="error"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" minlength="8" placeholder="8 symbols" required class="error"><br><br>
+        <label for="confirmpassword">Confirm Password</label><br>
+        <input type="password" id="confirmpassword" minlength="8" placeholder="8 symbols" required class="error"><br><br>
+        <input type="checkbox" id="checkbox" required class="error">
+        <label class="container">Agree with <b>Term & Conditions</b></label><br>
+        <input type="submit" class="btn" value="Create Account"><br>
+        <p class="error"></p>
+        <p>Already have an account? <b>Login</b></p>
+    </form>
+
+    <div class="out"></div>
+
+    <script src="task3.js"></script>
+
+
+
+</body>
+</html>
